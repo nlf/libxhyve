@@ -33,7 +33,7 @@
 #if defined(__FreeBSD__)
 #include <sys/sbuf.h>
 #else
-#include "sbuf/sbuf.h"
+#include "sbuf.h"
 #endif
 #include "lib9p.h"
 #include "lib9p_impl.h"
